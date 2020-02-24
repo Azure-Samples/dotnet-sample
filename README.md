@@ -38,7 +38,7 @@ If you are new to Azure App Service, see:
 ## Workflow YAML explained
 
 * [Checkout](https://github.com/actions/checkout) Checks out your Git repository content into Github Actions agent.
-* Environment setup using [Setup DotNet](https://github.com/actions/setup-dotnet) - Sets up a dotnet environment by optionally downloading and caching a version of dotnet by SDK version and adding to PATH .
+* Environment setup using [Setup MSBuild](https://github.com/microsoft/setup-msbuild) - Sets up a ms-build environment by optionally downloading and caching a version of dotnet by SDK version and adding to PATH .
 * DotNet Build & Publish
 * Deploy to App service using azure/webapps-deploy@v1 action which authenticates using [Azure Web App Publish Profile](https://github.com/projectkudu/kudu/wiki/Deployment-credentials#site-credentials-aka-publish-profile-credentials)
 which we configured using the secret set up at the repo level
