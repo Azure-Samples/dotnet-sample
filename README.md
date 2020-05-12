@@ -1,3 +1,13 @@
+---
+page_type: sample
+description: "Deploy dotnet application using GitHub Actions"
+products:
+- GitHub Actions
+- Azure App service
+languages:
+- dotnet
+---
+
 # Sample ASP.NET Core application for GitHub Actions
 
 For all samples to set up GitHub workflows, see [Create your first workflow](https://github.com/Azure/actions-workflow-samples
